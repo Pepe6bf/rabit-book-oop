@@ -4,12 +4,12 @@ public class Elice {
 
     private Beverage beverage;
     private int height;
-    private String location;
+    private Location location;
 
     public Elice(
             Beverage beverage,
             int height,
-            String location
+            Location location
     ) {
         this.beverage = beverage;
         this.height = height;
@@ -40,7 +40,7 @@ public class Elice {
         return height;
     }
 
-    public String getLocation() {
+    public Location getLocation() {
         return location;
     }
 }
